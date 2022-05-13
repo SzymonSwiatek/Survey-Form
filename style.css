@@ -1,17 +1,72 @@
 html, body {
     margin: 0;
-    background-color: rgb(41, 39, 39);
+    background-color: rgb(142, 105, 202);
+    
   }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    justify-items: center;
-    justify-content: center;
 
-    color: white;
+
+
+    color: black;
+
+    width: 80%;
+    margin: 3% auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
     
 
 }
+
+main h1 {
+  max-width: 80%;
+
+}
+
+form hr {
+  width: 20%;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Data-inputs {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+
+
+}
+
+#burger {
+  max-height: 10%;
+  max-width: 10%;
+  transition: transform .8s ease-in-out;
+}
+
+#burger:hover {
+  transform: rotate(-15deg);
+
+}
+
+.ckbox {
+  display: inline;
+
+}
+
+
+
